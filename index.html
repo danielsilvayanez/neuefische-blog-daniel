@@ -7,11 +7,12 @@
   </head>
   <body>
     <header>
-      <img src="img/neuefische-gmbh-logo.svg" alt="neue Fische Logo" />
-      <h1>
-        neue Fisch Blog <a href="www.google.de">Articles</a>
-        <a href="www.google.de">Imprint</a>
-      </h1>
+      <img src="img/neuefische-gmbh-logo.svg" alt="das neue Fische Logo" />
+      <h1>neue Fisch Blog</h1>
+      <nav>
+        <a href="#">Articles</a>
+        <a href="#">Imprint</a>
+      </nav>
     </header>
     <main>
       <article>
@@ -25,7 +26,7 @@
 
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam veniam
-          corrupti ipsam unde culpa amet ducimus asperiores nemo ullam animi?
+          corrupti ipsam unde culpa amet ducimus asperiores nemo ullam animi?          
         </p>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
@@ -40,27 +41,41 @@
         </p>
 
         <aside>
-          <h3>
-            Author
-          </h3>
-
-          <p>
-            Luke Skywalker
-          </p>
-
-          <img src="img/author.jpeg" alt="author des artikels" />
+          <h3>Author</h3>
+          <p>Luke Skywalker</p>
+          <img src="img/author.jpeg" alt="profilfoto des autors" />
 
           <p>
             Further articles
           </p>
           <ul>
-            <p><link rel="stylesheet" href="" /> link 1</p>
-            <p><link rel="stylesheet" href="" /> link 2</p>
-            <p><link rel="stylesheet" href="" /> link 3</p>
+            <li><a href="www.google.de" /> link 1</li>
+            <li><a href="www.google.de" /> link 1</li>
+            <li><a href="www.google.de" /> link 1</li>
           </ul>
+          
+          <section id="comments">
+            <h3>Latest comments</h3>
+              <ul>
+                <li>comment 1</li>
+                <li>comment 1</li>
+                <li>comment 1</li>
+                <li>comment 1</li>
+              </ul>
+          
+              <form name"comment"
+                <h3><strong>Comment here:</strong> </h3>
+                <p>Your Name:<br>
+                <textarea name="usercomment" cols="30" rows="2"></textarea>
+                <p>Your comment:<br>
+                <textarea name="usercomment" cols="50" rows="10"></textarea>
+                <input type="submit" value="send">
+              </form>
+          </section>
         </aside>
       </article>
     </main>
+    
     <footer>
       <p>
         &copy; neueFische GmbH
